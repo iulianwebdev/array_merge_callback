@@ -1,0 +1,28 @@
+{
+    "name": "iudev/array_merge_callback",
+    "description": "Function to merge 2 arrays with callback",
+    "require": {
+        "php": "^5.6.37 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "psy/psysh": "~0.9"
+    },
+    "autoload": {
+        "psr-4": {"IuDev\\": "/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IuDev\\ArrayMerge\\": "src/", 
+            "IuDev\\Tests\\": "tests/", 
+            "IuDev\\Sampler\\": "Sampler/"
+        }
+                
+    },
+    "authors": [
+        {
+            "name": "Iulian Cravet",
+            "email": "iulian.webdev@gmail.com"
+        }
+    ]
+}

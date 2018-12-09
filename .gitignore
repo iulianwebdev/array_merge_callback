@@ -1,2 +1,4 @@
 .phpintel
-
+*.sublime-settings
+*.lock
+/vendor/
