@@ -50,11 +50,11 @@ It will try and merge 2 similar structured arrays, structure should be the same,
 For existing keys it will apply the **Action** provided.
 
 An **Action** has the following properties 
-'keys'  - keys that the Action should be applied to
-'level' - level or depth on which the Action is valid (other levels won't be touched) 
+'keys'  - that the Action should be applied to
+'level' - depth on which the Action is valid (other levels won't be touched) 
 
 Level starts from 1;
-Level = 0 - Action will be applied on all the nodes or the keys specified.
+Level = 0 - Action will be applied on all the nodes or the keys specified on all levels.
 
 ### Example
 ```
