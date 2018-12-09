@@ -78,17 +78,23 @@ ArrayMerge::init($action)->merge($left, $right);
 ## API 
 ### ArrayMerge
 **static init(Action $action)** - creates an instance, expects an Action
+
 **withAction(Action $action)** - adds an action to the instance
 
 ### Action
 **default level = 0 and all keys**
+
 **onLevel(int $level)** - sets the depth of the array to which the Action will be applied
+
 **onKeys(array $keys)** - sets the keys for the Action to run on
+
 **setKey($key)** - adds a key to the actions keys array
 
 
 **inScope($key, int $level)** - checks if Action needs to be applied (if in scope)
+
 **setMethod(callable $func)** - sets the callback to run if in scope (onnly one at a time)
+
 **runMethod($left, $right)** - runs the set callback against 2 values
 
 
