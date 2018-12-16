@@ -82,7 +82,7 @@ ArrayMerge::init($action)->merge($left, $right);
 **withAction(Action $action)** - adds an action to the instance
 
 ### Action
-**default level = 0 and all keys**
+**by default level and keys are ignored, meaning it will aplly the Action to all nodes**
 
 **onLevel(int $level)** - sets the depth of the array to which the Action will be applied
 
